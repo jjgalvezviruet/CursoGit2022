@@ -1,3 +1,5 @@
 # Este archivo tiene como único objetivo crear un conflicto entre el repositorio
 # local y gitHub.
-# Y esta otra también
+# Esta línea será el origen del conflicto
+# y esta otra también
+
