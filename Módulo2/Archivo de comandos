@@ -3,4 +3,4 @@
 3. Estos cambios se han añadido a una nueva rama get-dir después de actualizar el repositorio con los anteriores 
 4. Se ha cambiado la rama main del repositorio añadiendo un archivo "Archivo de comandos aux"
 5. Se ha actualizado la rama main del repositorio local y se ha fusionado la rama get-dir del repositorio remoto
-
+6. Se ha borrado la rama get-dir del repositorio local usando "git branch -d get-dir" y del repositorio local con "git push origin :get-dir"
