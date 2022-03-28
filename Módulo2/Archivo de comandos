@@ -1,2 +1,3 @@
 1. Este archivo adelanta la rama main del repositorio
 2. Se ha lanzado git pull desde el repositorio local y se ha añadido el tag "local1"
+3. Estos cambios se han añadido a una nueva rama get-dir después de actualizar el repositorio con los anteriores 
