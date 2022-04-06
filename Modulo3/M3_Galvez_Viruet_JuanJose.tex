@@ -1,0 +1,18 @@
+%% PREÁMBULO %%
+%El texto de latex en español más simple que te vas a encontrar
+\documentclass{article} % Tipo de documento, en este caso artículo
+\usepackage[spanish]{babel} % Para opciones propias del idioma, como escribir <<>> para comentar 
+
+\usepackage[utf8]{inputenc} % Para que Latex reconozca caracteres como la ñ, en realidad esto no es necesario, la codificación por defecto es la utf8
+
+\begin{document}
+\title{Comentarios sobre los paquetes inputenc y babel}
+\author{Juan José Gálvez Viruet}
+\date{\today}
+\maketitle
+Para escribir correctamente en español hay que usar los paquetes <<inputenc>> y <<babel>>:
+\begin{itemize}
+\item[$-$] inputenc: Para la codificación del documento, si la codificación por defecto es ASCII no se reconoceran tildes ni letras como la ñ, en ese caso debe cambiarse a utf8 con <<usepackage[utf8]\{inputenc\}>>
+\item[$-$] babel: Para las características propias del idioma como la forma de entrecomillar o la tabulación al final de un párrafo. Por ejemplo, si no introducimos babel no aparecen las comillas angulares anteriores, sino ¡¡inputenc¿¿ y ¡¡babel¿¿.
+\end{itemize}
+\end{document}
