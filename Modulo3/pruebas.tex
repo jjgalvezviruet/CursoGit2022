@@ -1,0 +1,41 @@
+\documentclass[a4paper,11pt]{article}
+
+% Paquete de idioma
+\usepackage[spanish]{babel}
+
+% Codificación utf8
+\usepackage[utf8]{inputenc}
+
+
+\begin{document}
+\title{Documento de pruebas módulo 3}
+\date{\today}
+\author{Juan José GV}
+\maketitle
+
+Hola, un salto de línea normal, 
+no produce cambio alguno, pero sirve para estructurar el texto en el archivo tex
+y no hacer líneas muy largas. Para provocar un salto con indentación es necesario dejar una línea en blanco. 
+
+Ahora hemos empezado otro párrafo. Para no introducir indentación se usan dobles barras: \textbackslash\textbackslash \\
+y ya tenemos nuestra nueva línea, aunque el resultado puede que no sea del todo satisfactorio.
+
+A continuación queremos hacer una prueba de separación de palabras,~para ello necesitamos una oración larga. Usando el símbolo $\sim$ hemos conseguido que el primer renglón de este párrafo no termine en <<palabras,>>
+
+La estructura del texto cambio según el idioma, en la siguiente estructura el último punto después de los números de secciones y subsecciones no aparece si no se introduce el paquete babel con español.
+
+\part{Primera parte}
+Una primera parte, el libro ``An Introduction of QFT" de Michael E. Peskin y Daniel V. Schroeder tiene tres partes
+\begin{itemize}
+\item[$1$]Diagramas de Feynman y electodinámica cuántica.
+\item[$2$]Renormalización
+\item[$3$]Teorías gauge no abelianas
+\end{itemize}
+
+\section{Primera sección de la primera parte}
+Además tiene muchos capítulos, y dentro de cada capítulo otras tantas secciones.
+\subsection{Primera subsección}
+Es un libro bastante bien estructurado.
+
+
+\end{document}
